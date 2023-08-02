@@ -53,7 +53,7 @@ carroCompras.forEach((producto) => {
                         <p class="producto-precio">- Precio de lista: $${producto.precio}</p>
                         <p class="producto-precio">- Cantidad: ${producto.cantidad}</p>
                         <p class="producto-precio">- Precio final: $${producto.cantidad * producto.precio}</p>
-                        <button class="carrito-producto-eliminar" id="carrito-producto-eliminar" value ="${producto.id}"><i class="bi bi-trash3" value ="${producto.id}"></i></button>
+                        <button class="carrito-producto-eliminar" id="carrito-producto-eliminar" value ="${producto.id}"><i class="bi bi-trash3 carrito-producto-eliminar" id="carrito-producto-eliminar" value ="${producto.id}"></i></button>
                         </div>
                 </div>`
     listadoProductosCarrito.appendChild(div)
